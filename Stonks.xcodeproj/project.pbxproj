@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AB0BB1259BC6670049F72A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB0BB0259BC6670049F72A /* DashboardView.swift */; };
+		03AB0BB6259BC69A0049F72A /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB0BB5259BC69A0049F72A /* WalletView.swift */; };
+		03AB0BBB259BC6D30049F72A /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB0BBA259BC6D30049F72A /* TransferView.swift */; };
 		03EB2B8625896F5D00DFEF38 /* StonksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EB2B8525896F5D00DFEF38 /* StonksApp.swift */; };
 		03EB2B8825896F5D00DFEF38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EB2B8725896F5D00DFEF38 /* ContentView.swift */; };
 		03EB2B8A25896F5F00DFEF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EB2B8925896F5F00DFEF38 /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03AB0BB0259BC6670049F72A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		03AB0BB5259BC69A0049F72A /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		03AB0BBA259BC6D30049F72A /* TransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
 		03EB2B8225896F5D00DFEF38 /* Stonks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stonks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EB2B8525896F5D00DFEF38 /* StonksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonksApp.swift; sourceTree = "<group>"; };
 		03EB2B8725896F5D00DFEF38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 			children = (
 				03EB2B8525896F5D00DFEF38 /* StonksApp.swift */,
 				03EB2B8725896F5D00DFEF38 /* ContentView.swift */,
+				03AB0BB0259BC6670049F72A /* DashboardView.swift */,
+				03AB0BB5259BC69A0049F72A /* WalletView.swift */,
+				03AB0BBA259BC6D30049F72A /* TransferView.swift */,
 				03EB2B8925896F5F00DFEF38 /* Assets.xcassets */,
 				03EB2B8E25896F5F00DFEF38 /* Info.plist */,
 				03EB2B8B25896F5F00DFEF38 /* Preview Content */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				03EB2B8825896F5D00DFEF38 /* ContentView.swift in Sources */,
+				03AB0BBB259BC6D30049F72A /* TransferView.swift in Sources */,
+				03AB0BB1259BC6670049F72A /* DashboardView.swift in Sources */,
 				03EB2B8625896F5D00DFEF38 /* StonksApp.swift in Sources */,
+				03AB0BB6259BC69A0049F72A /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
